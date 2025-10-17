@@ -17,5 +17,10 @@ We fine-tune SciBERT to classify relationships between Quality Attributes (QAs) 
 ```bash
 git clone https://github.com/yourusername/QARM-BERT.git
 cd QARM-BERT
+
+## Usage
+Preprocessing
+python src/preprocess.py --input data/sample_QA_pairs.csv --output data/processed.csv
+
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
