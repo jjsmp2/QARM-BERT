@@ -23,24 +23,24 @@ python -m spacy download en_core_web_sm
 ```
 
 ## Usage
-Preprocessing
+Preprocessing:
 python src/preprocess.py --input data/sample_QA_pairs.csv --output data/processed.csv
 
-Train SciBERT
+Train SciBERT:
 python src/train_model.py --data data/processed.csv --epochs 5 --batch_size 16
 
-Evaluate Model
+Evaluate Model:
 python src/evaluate_model.py --model models/scibert_checkpoint --data data/processed.csv
 
-Feature Importance
+Feature Importance:
 python src/integrated_gradients.py --model models/scibert_checkpoint --data data/processed.csv
 
-Demo Notebook
+Demo Notebook:
 Open notebooks/demo_inference.ipynb in Jupyter or Google Colab to run inference on sample QA pairs.
 
 Notes
-•	Sample data is synthetic/anonymized to avoid copyright issues.
-•	To use full IEEE, Springer, ACM abstracts, follow instructions in data/README.md for data acquisition.
+- Sample data is synthetic/anonymized to avoid copyright issues.
+- To use full IEEE, Springer, ACM abstracts, follow instructions in data/README.md for data acquisition.
 
 License
 MIT License
