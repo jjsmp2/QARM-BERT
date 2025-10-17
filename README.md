@@ -4,8 +4,7 @@ This repository contains code and data for the paper:
 *"Explainable Modeling of Quality Attribute Relationships with Fine-Tuned Language Models"* (REFSQ Submission).
 
 ## Overview
-We fine-tune SciBERT to classify relationships between Quality Attributes (QAs) extracted from software requirement texts.  
-The model predicts **Support**, **Conflict**, or **Neutral** relationships, forming the basis for adaptive Quality Attribute Relationship Matrices (QARMs).
+We fine-tune SciBERT to classify relationships between Quality Attributes (QAs) extracted from software requirement texts. The model predicts **Support**, **Conflict**, or **Neutral** relationships, forming the basis for adaptive Quality Attribute Relationship Matrices (QARMs).
 
 ## Repository Contents
 - `data/` - Sample anonymized QA pairs for testing.
