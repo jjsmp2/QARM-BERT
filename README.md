@@ -1,7 +1,7 @@
 # QARM-BERT: Operationalizing NFR Relationships Using SciBERT
 
 This repository contains code and data for the paper:  
-*"Early Experiments in Operationalizing Non-Functional Requirements Relationships Using BERT"* (REFSQ Submission).
+*"Explainable Modeling of Quality Attribute Relationships with Fine-Tuned Language Models"* (REFSQ Submission).
 
 ## Overview
 We fine-tune SciBERT to classify relationships between Quality Attributes (QAs) extracted from software requirement texts.  
