@@ -43,5 +43,5 @@ Notes
 - To use full IEEE, Springer, ACM abstracts, follow instructions in data/README.md for data acquisition.
 
 License
-MIT License
+- MIT License
 
