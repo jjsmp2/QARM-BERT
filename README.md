@@ -1,4 +1,4 @@
-# QARM-LM: Explainable Modeling of Quality Attribute Relationships with Fine-Tuned Language Models
+# Explainable Modeling of Quality Attribute Relationships with Fine-Tuned Language Models
 
 This repository contains code and data for the paper:  
 *"Explainable Modeling of Quality Attribute Relationships with Fine-Tuned Language Models"* (REFSQ Submission).
