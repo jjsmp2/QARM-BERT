@@ -1,0 +1,41 @@
+# --- Core ML & NLP ---
+torch>=2.0
+transformers>=4.44
+datasets>=3.0
+scikit-learn>=1.4
+numpy>=1.25
+pandas>=2.2
+tqdm>=4.66
+
+# --- Visualization & Analysis ---
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.22
+jupyter>=1.0
+notebook>=7.1
+
+# --- Interpretability ---
+captum>=0.7
+lime>=0.2
+shap>=0.45
+
+# --- Data Processing & Integration (PROMISE, PURE, etc.) ---
+xmltodict>=0.13
+beautifulsoup4>=4.12
+lxml>=5.2
+openpyxl>=3.1
+requests>=2.32
+jsonlines>=4.0
+pyyaml>=6.0
+nltk>=3.9
+spacy>=3.7
+
+# --- Experiment Tracking & Reproducibility ---
+wandb>=0.18
+tensorboard>=2.17
+hydra-core>=1.3
+omegaconf>=2.3
+
+# --- Optional Utilities ---
+rich>=13.9
+colorama>=0.4
