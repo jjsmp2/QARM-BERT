@@ -1,3 +1,3 @@
-The reviewers can replace the sample data with real datasets if they have access.
+Any real dataset can be replaced with the sample dataset.
 
 
