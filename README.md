@@ -35,6 +35,22 @@ pip install -r requirements.txt
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 tokenizer = AutoTokenizer.from_pretrained("allenai/scibert_scivocab_uncased")
 model = AutoModelForSequenceClassification.from_pretrained("allenai/scibert_scivocab_uncased")
+
+python evaluate_model.py \
+  --model path/to/finetuned-sciBERT \
+  --data sample_dataset.csv \
+  --out results.csv \
+  --device cuda
+from integrated_gradients import IntegratedGradientsExplainer
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+tokenizer = AutoTokenizer.from_pretrained("allenai/scibert_scivocab_uncased")
+model = AutoModelForSequenceClassification.from_pretrained("path/to/finetuned-sciBERT")
+
+explainer = IntegratedGradientsExplainer(tokenizer, model, device="cuda")
+result = explainer.attribute("Security [SEP] Performance", target=1)
+print(result['tokens'])
+print(result['attributions'])
 ```
 
 ## Usage
