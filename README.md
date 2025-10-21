@@ -21,13 +21,20 @@ We fine-tune SciBERT to classify relationships between Quality Attributes (QAs) 
 - `models/` - Saved model checkpoints.
 - `requirements.txt` - Python dependencies.
 
-## Installation
+## Set Up and Installation
 ```bash
-git clone https://github.com/yourusername/QARM-BERT.git
-cd QARM-BERT
+# 1. Create virtual environment (optional)
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
 
+# 2. Install dependencies
 pip install -r requirements.txt
-python -m spacy download en_core_web_sm
+
+# 3. (Optional) Download SciBERT model
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+tokenizer = AutoTokenizer.from_pretrained("allenai/scibert_scivocab_uncased")
+model = AutoModelForSequenceClassification.from_pretrained("allenai/scibert_scivocab_uncased")
 ```
 
 ## Usage
