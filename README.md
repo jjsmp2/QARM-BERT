@@ -6,6 +6,14 @@ This repository contains code and data for the paper:
 ## Overview
 We fine-tune SciBERT to classify relationships between Quality Attributes (QAs) extracted from software requirement texts. The model predicts **Support**, **Conflict**, or **Neutral** relationships, forming the basis for adaptive Quality Attribute Relationship Matrices (QARMs).
 
+## QARM Project
+- `integrated_gradients.py` #Token-level interpretability using Integrated Gradients.
+- `utils.py` #Dataset utilities and preprocessing.
+- `evaluate_model.py` #Evaluation pipeline for fine-tuned SciBERT.
+- `demo_inference.ipynb` #End-to-end notebook (demo inference + interpretability).
+- `sample_dataset.csv` #10-sample dataset for testing.
+- `requirements.txt` #Required dependencies
+
 ## Repository Contents
 - `data/` - Sample anonymized QA pairs for testing.
 - `src/` - Scripts for preprocessing, training, evaluation, and feature attribution.
