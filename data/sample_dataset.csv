@@ -1,11 +1,11 @@
-qa1,qa2,label
-Security,Performance,Conflict
-Usability,Accessibility,Support
-Reliability,Scalability,Support
-Performance,Efficiency,Support
-Maintainability,Security,Conflict
-Availability,Fault Tolerance,Support
-Scalability,Energy Efficiency,Conflict
-Portability,Compatibility,Support
-Modularity,Reusability,Support
-Transparency,Recoverability,Neutral
+QA1,QA2,Label,
+Security,Performance,Conflict,
+Usability,Accessibility,Support,
+Reliability,Scalability,Support,
+Performance,Efficiency,Support,
+Maintainability,Security,Conflict,
+Availability,Fault Tolerance,Support,
+Scalability,Energy Efficiency,Conflict,
+Portability,Compatibility,Support,
+Modularity,Reusability,Support,
+Transparency,Recoverability,Neutral,
