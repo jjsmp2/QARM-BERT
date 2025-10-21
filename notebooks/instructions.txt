@@ -11,8 +11,7 @@ Example inference (QA pair).
 
 Integrated Gradients attribution demo.
 
-If you prefer, I can paste the entire notebook JSON here, but I already created demo_inference.ipynb in 
-/mnt/data/qarm_demo/ - open it in JupyterLab or VSCode to view and run.
+Already the demo_inference.ipynb is created in /mnt/data/qarm_demo/ - open it in JupyterLab or VSCode to view and run.
 
 Quick usage notes & tips:
 
@@ -22,9 +21,7 @@ Dependencies:
 
 pip install transformers torch scikit-learn tqdm
 
-
 For better IG and visualizations, consider pip install captum matplotlib seaborn.
-
 Data format: The evaluation script expects a CSV with columns qa1, qa2, label. label must be one of {Support, Conflict, Neutral}. Alternatively provide qa_pair column with [SEP] between the two segments.
 
 IG accuracy: For more precise attributions set n_steps=50 or 100 (longer runtime).
