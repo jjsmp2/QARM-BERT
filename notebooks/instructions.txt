@@ -11,7 +11,7 @@ Example inference (QA pair).
 
 Integrated Gradients attribution demo.
 
-Already the demo_inference.ipynb is created in /mnt/data/qarm_demo/ - open it in JupyterLab or VSCode to view and run.
+Already the demo_inference.ipynb is created in /notebooks/demo_inference.ipynb/ - open it in JupyterLab or VSCode to view and run.
 
 Quick usage notes & tips:
 
