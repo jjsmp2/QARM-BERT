@@ -69,10 +69,10 @@ python src/integrated_gradients.py --model models/scibert_checkpoint --data data
 Demo Notebook:
 Open notebooks/demo_inference.ipynb in Jupyter or Google Colab to run inference on sample QA pairs.
 
-Notes
+## Notes
 - Sample data is synthetic/anonymized to avoid copyright issues.
 - To use full IEEE, Springer, ACM abstracts, follow instructions in data/README.md for data acquisition.
 
-License
+## License
 - MIT License
 
