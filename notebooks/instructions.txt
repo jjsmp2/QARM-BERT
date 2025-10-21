@@ -1,0 +1,32 @@
+Below is the notebook content (first cells). You can paste into a new Jupyter notebook or save the .ipynb file, which is created 
+by the team.
+
+Notebook highlights:
+
+Setup instructions for installing packages.
+
+Loading tokenizer & model (set MODEL_PATH).
+
+Example inference (QA pair).
+
+Integrated Gradients attribution demo.
+
+If you prefer, I can paste the entire notebook JSON here, but I already created demo_inference.ipynb in 
+/mnt/data/qarm_demo/ - open it in JupyterLab or VSCode to view and run.
+
+Quick usage notes & tips:
+
+Model path: In the notebook change MODEL_PATH = 'path/to/fine-tuned-sciBERT' to your model path or HF repo id.
+
+Dependencies:
+
+pip install transformers torch scikit-learn tqdm
+
+
+For better IG and visualizations, consider pip install captum matplotlib seaborn.
+
+Data format: The evaluation script expects a CSV with columns qa1, qa2, label. label must be one of {Support, Conflict, Neutral}. Alternatively provide qa_pair column with [SEP] between the two segments.
+
+IG accuracy: For more precise attributions set n_steps=50 or 100 (longer runtime).
+
+Production notes: The IntegratedGradientsExplainer is a demonstration implementation. For robust research/production usage, Captum offers highly optimized attribution tools and visualization helpers.
